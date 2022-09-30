@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <div class="mainBody">
+        <div class="title">
+            <div class="header">
+            <img src="logo.png" width="150px" height="150px" />
+            <h2>CLEFNET BASKETBALL SCORE BOARD</h2>
+            </div>
+        
+        <div class="timer" id="time">00:00</div>     
+        
+        <div class="container">
+               <div class="home_container">
+                    <h3 class="home">Home</h3>
+                    <div class="home_score" id="insert_home">0</div>
+                    <div class="button_home">
+                        <button onclick="addOne_home()">+1</button>
+                        <button onclick="addTwo_home()">+2</button>
+                        <button onclick="addThree_home()">+3</button>
+                    </div>
+                </div>
+                <div class="away_container">
+                    <h3 class="away">Guest</h3>
+                    <div class="away_score" id="insert_away">0</div>
+                    <div class="button_away">
+                        <button onclick="addOne_away()">+1</button>
+                        <button onclick="addTwo_away()">+2</button>
+                        <button onclick="addThree_away()">+3</button>
+                    </div>
+                </div>
+                <button class="reset" onclick="reset()">Reset</button>
+            </div> 
+        </div>
+        <script src="index.js"></script>
+        </div>
+    </body>
+</html>

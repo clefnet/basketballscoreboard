@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0c294f;
+    position: relative;
+    width: 575px;
+    height: 250px;
+    max-width: 80%;
+    margin: auto;
+
+background: #1B244A;
+}
+.title{
+    background: #1B244A;
+    align-content: center;
+}
+.header{
+    display: flex;
+    border: groove white 1ch;
+    margin: 10px;
+    background-color: #030a14;
+}
+
+.timer{
+    color: white;
+    text-align: center;
+    border: solid red 1px;
+    background-color: black;
+    margin-right: 170px;
+    margin-left: 170px;
+    height: 100px;
+    font-size: 70px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Verdana';
+}
+.home, .away{
+    width: 149px;
+    height: 36px;
+    margin: 5px;
+    margin-top: 10px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 15px;
+}
+.home_score, .away_score{
+    border: solid black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    text-align: center;
+    
+
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    background-color: black;
+    color: #F94F6D;
+
+}
+
+.button_home{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 60px;
+    top: 200px;
+}
+
+.button_away{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 300px;
+    top: 200px;
+
+}
+.reset{
+    position: absolute;
+    height: 30px;
+    margin-top: 200px;
+    border: ridge;
+}
+
+.mainBody{
+    
+}
+
